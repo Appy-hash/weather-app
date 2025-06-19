@@ -1,9 +1,7 @@
 import React, {useState } from 'react';
 import { Weather } from './components/Weather';
 import { SearchBar } from './components/SearchBar';
-
 import './styles/App.css';
-
 
 function App() {
   const [city, setCity] = useState<string>('');

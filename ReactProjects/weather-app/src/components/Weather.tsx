@@ -2,6 +2,7 @@ import  {useEffect, useState} from 'react';
 import { WeatherData } from '../types/weather';
 import { fetchWeatherData } from "../api/api";
 import '../styles/Weather.css';
+import React from 'react';
 
 export const Weather = ({cityName}: {cityName: string}) => {
     const [weather, setWeather] = useState<WeatherData|null>(null);
